@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <InvariantGlobalization>true</InvariantGlobalization>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="News\Application\Internal\CommandServices\" />
+      <Folder Include="News\Application\Internal\QueryServices\" />
+      <Folder Include="News\Domain\Model\Entities\" />
+      <Folder Include="News\Domain\Model\Events\" />
+      <Folder Include="News\Domain\Model\ValueObjects\" />
+      <Folder Include="News\Domain\Repositories\" />
+      <Folder Include="News\Infrastructure\Persistence\EFC\Configuration\" />
+      <Folder Include="News\Infrastructure\Persistence\EFC\Repositories\" />
+      <Folder Include="News\Interfaces\REST\Resources\" />
+      <Folder Include="News\Interfaces\REST\Transform\" />
+      <Folder Include="Shared\" />
+    </ItemGroup>
+
+</Project>
