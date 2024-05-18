@@ -27,7 +27,7 @@
       <Folder Include="News\Infrastructure\Persistence\EFC\Repositories\" />
       <Folder Include="News\Interfaces\REST\Resources\" />
       <Folder Include="News\Interfaces\REST\Transform\" />
-      <Folder Include="Shared\" />
+      <Folder Include="Shared\Infrastructure\Persistence\EFC\Repositories\" />
     </ItemGroup>
 
 </Project>
