@@ -17,7 +17,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="News\Application\Internal\CommandServices\" />
       <Folder Include="News\Application\Internal\QueryServices\" />
       <Folder Include="News\Domain\Model\Entities\" />
       <Folder Include="News\Domain\Model\Events\" />

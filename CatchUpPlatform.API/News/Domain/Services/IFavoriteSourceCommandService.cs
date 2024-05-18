@@ -5,5 +5,5 @@ namespace CatchUpPlatform.API.News.Domain.Services;
 
 public interface IFavoriteSourceCommandService
 {
-    FavoriteSource Handle(CreateFavoriteSourceCommand command);
+    Task<FavoriteSource?> Handle(CreateFavoriteSourceCommand command);
 }
