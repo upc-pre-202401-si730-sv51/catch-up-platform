@@ -11,6 +11,7 @@
         <PackageReference Include="EntityFrameworkCore.CreatedUpdatedDate" Version="8.0.0" />
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
         <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.2" />
     </ItemGroup>
