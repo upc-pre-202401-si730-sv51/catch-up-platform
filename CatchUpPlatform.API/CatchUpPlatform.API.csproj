@@ -20,8 +20,6 @@
       <Folder Include="News\Domain\Model\Entities\" />
       <Folder Include="News\Domain\Model\Events\" />
       <Folder Include="News\Domain\Model\ValueObjects\" />
-      <Folder Include="News\Interfaces\REST\Resources\" />
-      <Folder Include="News\Interfaces\REST\Transform\" />
     </ItemGroup>
 
 </Project>
