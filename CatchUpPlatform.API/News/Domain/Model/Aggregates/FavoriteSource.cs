@@ -8,7 +8,7 @@ namespace CatchUpPlatform.API.News.Domain.Model.Aggregates;
 // Entity class for FavoriteSource
 //*/
 
-public class FavoriteSource
+public partial class FavoriteSource
 {
     public int Id { get; set; }
     public string NewsApiKey { get; set; }
